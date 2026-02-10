@@ -1,0 +1,58 @@
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.container{
+    justify-items: center;
+}
+.card {
+  position:relative; 
+  width: 200px;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  background-image: url(https://media.licdn.com/dms/image/v2/D4D22AQG5pWuNEs4h7g/feedshare-shrink_800/B4DZYAor3YGkAg-/0/1743767389452?e=2147483647&v=beta&t=J2Mu6cBuuIGEQOO8HaQ87BoMxtJ_jCxJgCP95-nbE4A);
+  background-position-x: center;
+  background-position-y: -85px;
+  justify-items: baseline;
+  .h3{
+    bottom: 100px;
+  }
+}
+.cat{
+  position:relative; 
+  width: 200px;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  
+  background-image: url(https://media.licdn.com/dms/image/v2/D4D22AQG5pWuNEs4h7g/feedshare-shrink_800/B4DZYAor3YGkAg-/0/1743767389452?e=2147483647&v=beta&t=J2Mu6cBuuIGEQOO8HaQ87BoMxtJ_jCxJgCP95-nbE4A);
+  background-position-x: center;
+  background-position-y: -85px;
+  justify-items: baseline;
+  .h3{
+    bottom: 100px;
+  }
+}
+
+.badge {
+  position: absolute;
+  top: -10px;    
+  right: -10px;  
+  background: rgb(255, 0, 0);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+}
